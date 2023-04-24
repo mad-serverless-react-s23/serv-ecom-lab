@@ -5,5 +5,23 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
+  },
+  "parameters": {
+    "AMPLIFY_function_servecomlabe27f3879PostConfirmation_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "servecomlabe27f3879PostConfirmation"
+        }
+      ]
+    },
+    "AMPLIFY_function_servecomlabe27f3879PostConfirmation_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "servecomlabe27f3879PostConfirmation"
+        }
+      ]
+    }
   }
 }
