@@ -18,6 +18,9 @@ Amplify Params - DO NOT EDIT */
 const express = require('express')
 const bodyParser = require('body-parser')
 const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
+// copy/paste requires from book...
+const AWS = require('aws-sdk')
+const { v4: uuid } = require('uuid')
 
 // declare a new express app
 const app = express()

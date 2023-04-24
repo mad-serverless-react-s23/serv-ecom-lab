@@ -1,9 +1,5 @@
 const aws = require('aws-sdk');
 
-// const cognitoIdentityServiceProvider = new aws.CognitoIdentityServiceProvider({
-//   apiVersion: '2016-04-18',
-// });
-
 /**
  * @type {import('@types/aws-lambda').PostConfirmationTriggerHandler}
  */
