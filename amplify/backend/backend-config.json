@@ -80,6 +80,22 @@
           "resourceName": "servecomlabe27f3879PostConfirmation"
         }
       ]
+    },
+    "AMPLIFY_function_servecomlabfunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "servecomlabfunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_servecomlabfunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "servecomlabfunction"
+        }
+      ]
     }
   },
   "storage": {

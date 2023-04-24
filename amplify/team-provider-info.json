@@ -9,18 +9,28 @@
       "UnauthRoleName": "amplify-servecomlab-dev-235206-unauthRole",
       "StackName": "amplify-servecomlab-dev-235206",
       "StackId": "arn:aws:cloudformation:us-east-2:230395760767:stack/amplify-servecomlab-dev-235206/c4374050-e25b-11ed-9599-0abc498bf4af",
-      "AmplifyAppId": "d1b6qexxndxuxj"
+      "AmplifyAppId": "d1b6qexxndxuxj",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-servecomlab-dev-235206-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "function": {
         "servecomlabe27f3879PostConfirmation": {
           "deploymentBucketName": "amplify-servecomlab-dev-235206-deployment",
-          "s3Key": "amplify-builds/servecomlabe27f3879PostConfirmation-6a4767694d43727a584c-build.zip"
+          "s3Key": "amplify-builds/servecomlabe27f3879PostConfirmation-7a35326874623639334e-build.zip"
         },
-        "servecomlabfunction": {}
+        "servecomlabfunction": {
+          "deploymentBucketName": "amplify-servecomlab-dev-235206-deployment",
+          "s3Key": "amplify-builds/servecomlabfunction-5974447048622b566438-build.zip"
+        }
       },
       "auth": {
         "servecomlab": {}
+      },
+      "storage": {
+        "producttable": {}
+      },
+      "api": {
+        "servecomlabapi": {}
       }
     }
   }
