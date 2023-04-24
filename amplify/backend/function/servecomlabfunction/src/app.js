@@ -28,6 +28,13 @@ const cognito = new
 AWS.CognitoIdentityServiceProvider({
   apiVersion: '2016-04-18'
 })
+// more book c/p
+/* Cognito User Pool ID
+*  This User Pool ID variable will be given to you by the CLI output after
+   adding the category
+*  This will also be available in the file itself, commented out at the top
+*/
+var userpoolId = process.env.<your_app_id>
 
 // declare a new express app
 const app = express()
