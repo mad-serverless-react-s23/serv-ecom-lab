@@ -18,9 +18,16 @@ Amplify Params - DO NOT EDIT */
 const express = require('express')
 const bodyParser = require('body-parser')
 const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
+
 // copy/paste requires from book...
 const AWS = require('aws-sdk')
 const { v4: uuid } = require('uuid')
+// cognito stuff copy from book
+/* Cognito SDK */
+const cognito = new
+AWS.CognitoIdentityServiceProvider({
+  apiVersion: '2016-04-18'
+})
 
 // declare a new express app
 const app = express()
