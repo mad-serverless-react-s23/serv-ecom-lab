@@ -16,7 +16,11 @@
         "servecomlabe27f3879PostConfirmation": {
           "deploymentBucketName": "amplify-servecomlab-dev-235206-deployment",
           "s3Key": "amplify-builds/servecomlabe27f3879PostConfirmation-6a4767694d43727a584c-build.zip"
-        }
+        },
+        "servecomlabfunction": {}
+      },
+      "auth": {
+        "servecomlab": {}
       }
     }
   }
