@@ -36,6 +36,11 @@ AWS.CognitoIdentityServiceProvider({
 */
 var userpoolId = process.env.<your_app_id>
 
+// DynamoDB configuration
+const region = process.env.REGION
+const ddb_table_name = process.env.STORAGE_PRODUCTTABLE_NAME
+const docClient = new AWS.DynamoDB.DocumentClient({region})
+
 // declare a new express app
 const app = express()
 app.use(bodyParser.json())
